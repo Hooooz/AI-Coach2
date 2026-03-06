@@ -1,0 +1,30 @@
+# OpenClaw runtime/state
+.openclaw/
+
+# Local scratch / exports
+/tmp/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.mov
+*.wav
+*.mp3
+
+# OS
+.DS_Store
+
+# Node/python
+node_modules/
+__pycache__/
+*.pyc
+.venv*/
+
+# Avoid committing large ad-hoc user files by default (explicitly add if needed)
+*.pptx
+*.xmind
+*.vsdx
+*.opml
+*.pdf
